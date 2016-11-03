@@ -24,7 +24,7 @@
     public  void afficheCoord(){
         System.out.println(" votre point " +this.nom +"  a commme cordonnée ( "+ super.getX()+ " , "+ super.getY()+ ")");
     }
-    //remarque: la méthode afficheCoord() peut etre remplacé pa ToString
+    //remarque: la méthode afficheCoord() peut etre remplacé par ToString
 
 
 
