@@ -1,7 +1,7 @@
 /**
  * Created by fatima on 02/11/16.
  */
-    public class PointNom extends PointA { // il te manque PointA extends Point 
+    public class PointA extends Point { // il te manque PointA extends Point 
 
     private String nom;
 
@@ -21,8 +21,8 @@
         return nom;
     }
 
-    public  void afficheCoord(){ // la on redéfinit afficheCoord() de PointA
-        System.out.println(" votre point " +this.nom +"  a commme cordonnée"+ super.affciheCoord());
+    public  void afficheCoord(){ 
+        System.out.println(" votre point " +this.nom +"  a commme cordonnée"+ affciheCoord());
     }
     //remarque: la méthode afficheCoord() peut etre remplacé par ToString
 
