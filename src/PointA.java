@@ -1,7 +1,7 @@
 /**
  * Created by fatima on 02/11/16.
  */
-    public class PointA extends Point { // il te manque PointA extends Point 
+    public class PointA extends Point { 
 
     private String nom;
 
