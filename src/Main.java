@@ -3,7 +3,7 @@
  */
 public class Main {
     public static void main(String[] args) {
-        PointA point = new PointA(3,4," 'j' ");
+        pointNom point = new pointNom(3,4," 'j' ");
 
          point.afficheCoord();
     }

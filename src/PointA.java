@@ -3,26 +3,24 @@
  */
     public class PointA extends Point {
 
-    private String nom;
 
-    public PointA(double x,double y,String nom){
+
+    public PointA(double x,double y){
 
         super(x,y);
-        this.nom=nom;
+
     }
 
-    public PointA(double x,String nom){
+    public PointA(double x){
 
         super(x);
-        this.nom=nom;
+
     }
 
-    public String getNom() {
-        return nom;
-    }
+
 
     public  void afficheCoord(){
-        System.out.println(" votre point " +this.nom +"  a commme cordonnée ( "+ super.getX()+ " , "+ super.getY()+ ")");
+        System.out.println("  cordonnée ( "+ super.getX()+ " , "+ super.getY()+ ")");
     }
     //remarque: la méthode afficheCoord() peut etre remplacé par ToString
 
